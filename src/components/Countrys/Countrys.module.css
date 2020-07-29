@@ -1,0 +1,9 @@
+ option, .MuiNativeSelect-select:not([multiple]) optgroup {
+    background: rgba(0, 0, 0, .4) !important;
+    color: #fff;
+}
+
+.formcontrole{
+    width: 30%;
+    margin: 20px !important;
+}
