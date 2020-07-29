@@ -17,7 +17,7 @@ console.log(data,country)
   }, []);
 
   const lineChart = dailyData.length ? (
-    <Line
+    <Line  className={styles.linechart}
       data={{
         labels: dailyData.map(({ date }) => date),
         datasets: [
@@ -40,7 +40,7 @@ console.log(data,country)
   ) : null;
 
   const barChart = data.confirmed ? (
-    <Bar
+    <Bar className={styles.barchart}
       data={{
         labels: ["Infected", "Recovred", " Deaths"],
         datasets: [

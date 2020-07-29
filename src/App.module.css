@@ -13,6 +13,18 @@ body {
   justify-content: center;
 }
 .image{
-  width: 300px;
+  width: 320px;
   margin: 30px;
 }
+
+
+@media(max-width:770px){
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  .image{
+    width: 100%;
+  }
+}
+
